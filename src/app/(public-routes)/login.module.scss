@@ -1,0 +1,18 @@
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 48px;
+  border-radius: 4px;
+  -webkit-box-shadow: 6px 4px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 4px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 4px 9px -1px rgba(0, 0, 0, 0.75);
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    256deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(183, 78, 239, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
